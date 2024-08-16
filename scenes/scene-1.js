@@ -1,3 +1,6 @@
+import * as Phaser from "../lib/phaser.esm.min.js"
+import Handler from "../handler.js";
+
 class Scene1 extends Phaser.Scene {
 
     handler;
@@ -16,3 +19,5 @@ class Scene1 extends Phaser.Scene {
     }
 
 }
+
+export default Scene1;

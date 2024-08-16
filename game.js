@@ -1,3 +1,10 @@
+// phaser
+import * as Phaser from "./lib/phaser.esm.min.js";
+// scenes
+import MainMenu from "./scenes/main-menu.js";
+import Scene1 from "./scenes/scene-1.js";
+
+
 const gameWidth = 640 * 1.5;
 const gameHeight = 360 * 1.5;
 

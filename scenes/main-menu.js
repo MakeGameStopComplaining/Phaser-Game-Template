@@ -1,3 +1,5 @@
+import * as Phaser from "../lib/phaser.esm.min.js"
+
 class MainMenu extends Phaser.Scene {
     constructor() {
         super("main-menu");
@@ -10,3 +12,5 @@ class MainMenu extends Phaser.Scene {
     update() {}
 
 }
+
+export default MainMenu;

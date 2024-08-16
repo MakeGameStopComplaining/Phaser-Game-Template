@@ -68,3 +68,5 @@ class Entity {
         this.sprite.destroy();
     }
 }
+
+export default Entity;
