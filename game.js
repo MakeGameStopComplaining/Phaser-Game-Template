@@ -1,5 +1,5 @@
 // phaser
-import * as Phaser from "./lib/phaser.esm.min.js";
+import { Game } from "./lib/phaser.esm.min.js";
 // scenes
 import MainMenu from "./scenes/main-menu.js";
 import Scene1 from "./scenes/scene-1.js";
@@ -25,5 +25,5 @@ window.onload = function() {
         pixelArt: true
     };
     
-    var game = new Phaser.Game(config);
+    var game = new Game(config);
 };

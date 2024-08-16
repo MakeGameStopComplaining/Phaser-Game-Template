@@ -1,6 +1,6 @@
-import * as Phaser from "../lib/phaser.esm.min.js"
+import { Scene } from "../lib/phaser.esm.min.js"
 
-class MainMenu extends Phaser.Scene {
+class MainMenu extends Scene {
     constructor() {
         super("main-menu");
     }
